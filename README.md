@@ -1,11 +1,10 @@
-# Voxel Game Advanced
+# Snake Game
 
-## Features
-- Infinite world with chunk system
-- Mobile smooth FPS camera
-- Hotbar inventory
-- Block placement & destruction
-- Touch controls
+## How to Play
+Use arrow keys or WASD to move.
 
 ## Run
-Open index.html in browser
+Open index.html in your browser.
+
+## Structure
+HTML, CSS, JS modular files.

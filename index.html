@@ -2,30 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Voxel Game</title>
+  <title>Snake Game</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div id="hud">
-  <div id="crosshair">+</div>
-</div>
-
-<div id="hotbar">
-  <div class="slot selected" data-id="0"></div>
-  <div class="slot" data-id="1"></div>
-  <div class="slot" data-id="2"></div>
-  <div class="slot" data-id="3"></div>
-  <div class="slot" data-id="4"></div>
-</div>
-
-<div id="mobileControls">
-  <div id="joystick"><div id="stick"></div></div>
-  <button id="jumpBtn">↑</button>
-  <button id="placeBtn">⬛</button>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js"></script>
-<script src="script.js"></script>
+  <div class="game-wrapper">
+    <h1>Snake Game</h1>
+    <div class="score">Score: <span id="score">0</span></div>
+    <div id="game-board"></div>
+    <button id="restart">Restart</button>
+  </div>
+  <script src="script.js" type="module"></script>
 </body>
 </html>
